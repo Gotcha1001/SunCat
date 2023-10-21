@@ -1,0 +1,18 @@
+/* food-brands.component.css */
+.custom-box {
+    border: 2px solid #800080; /* Dark Purple border color */
+    padding: 20px; /* Add padding for spacing inside the box */
+    border-radius: 10px; /* Add rounded corners to the box */
+    margin-top: 20px; /* Add top margin to create space below the navigation bar */
+  }
+  
+  /* food-brands.component.css */
+.centered-image-with-border {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border: 9px solid #800080; /* Dark Purple border color */
+    border-radius: 10px; /* Add rounded corners to the border */
+    max-width: 70%; /* Ensure the image doesn't exceed the container's width */
+    padding: 33px; /* Add padding for spacing inside the border */
+  }
+  
