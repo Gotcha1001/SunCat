@@ -26,9 +26,13 @@ export class EmailFormComponent {
     if (this.emailForm.valid) {
       const emailData = this.emailForm.value;
       this.emailService.sendEmail(emailData).subscribe({
-        next: () => {
-          console.log("Email is sent, thank you");
-          this.router.navigate(['/']);
+        next: (response) => {
+          if (response && response.message === "Email sent successfully") {
+            console.log("Email is sent, thank you");
+            this.router.navigate(['/']);
+          } else {
+            console.error("Unexpected response from the server");
+          }
         },
         error: (error) => {
           console.error("Sorry, there has been an error", error);
@@ -36,5 +40,5 @@ export class EmailFormComponent {
       });
     }
   }
-}
+}  
 
