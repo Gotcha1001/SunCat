@@ -1,19 +1,5 @@
-/* food-brands.component.css */
-.custom-font {
-    font-family: 'YourFont', 'Courier'; /* Replace 'YourFont' with your desired font name */
-    font-size: 20px; /* Adjust the font size as needed */
-  }
-  
-  /* food-brands.component.css */
-.purple-box {
-    background-color: #7a0d72; /* Light Purple background color */
-    border: 5px solid #0f0f0f; /* Dark Purple border color */
-    padding: 10px; /* Add some padding for spacing inside the box */
-    border-radius: 10px; /* Add rounded corners to the box */
-  }
-  /* food-brands.component.css */
-.custom-image {
-    max-width: 700px; /* Set the maximum width as per your requirement */
-    margin-bottom: 40px; /* Add margin to create space between the image and the paragraph */
-  }
-  
+html, body {
+  background-color: black;
+  margin: 0; /* Optionally, to remove default margin */
+  padding: 0; /* Optionally, to remove default padding */
+}

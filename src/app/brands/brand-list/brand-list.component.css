@@ -1,0 +1,9 @@
+/* Add this CSS to your stylesheet */
+.brand-image {
+    transition: transform 0.3s ease; /* Smooth transition effect for zoom */
+  }
+  
+  .brand-image:hover {
+    transform: scale(1.1); /* Zoom in by 10% when hovering */
+  }
+  
